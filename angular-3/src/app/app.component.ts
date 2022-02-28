@@ -17,4 +17,7 @@ constructor (
   private cService: ConstructionService
 ) {}
 
+onDelete(construction: Construction): void {
+  this.cService.delete(construction.id).subscribe()
+}
 }
