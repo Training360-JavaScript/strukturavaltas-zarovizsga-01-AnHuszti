@@ -6,3 +6,7 @@
     @content
   }
 };
+
+@mixin background ($background-color) {
+  background-color: colors.$yellow;
+}
